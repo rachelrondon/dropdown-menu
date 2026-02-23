@@ -10,17 +10,22 @@
   font-weight: bold;
 } 
 
-.blue {
- background-color: #cce6f7;
- /* background-color: #d0eafc; */
+.light {
+  background-color: #FAFBF9;  
+  color: #1f232a;
 }
 
-.green {
- background-color: #c9e6d9;
- /* background-color: #d0f0e0;*/
+.dark {
+  background-color: #1f232a;
+  color: #FAFBF9;  
+}
 
+.auto {
+  background-color: #7F8A84;
+  color: #FAFBF9;  
 }
 
 .dropdown {
   margin-left: 1rem;
+  padding: 0.1rem;
 }
