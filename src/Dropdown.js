@@ -14,7 +14,7 @@ const Dropdown = () => {
   return (
     <div className={className}>
       <label>
-        Colors: 
+        COLOR:
         <select className="dropdown" name="selectColor" onChange={((e) => updateColor(e.target.value))}>
           {listOfColors.map((color) => {
             return (
