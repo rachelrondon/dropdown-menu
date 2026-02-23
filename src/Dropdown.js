@@ -3,22 +3,22 @@ import './Dropdown.css';
 
 const Dropdown = () => {
 
-  const listOfColors = ["light", "dark", "auto"];
-  const [selectedColor, setSelectedColor] = useState("light");
-  const className = `layout ${selectedColor}`;
+  const themes = ["light", "dark", "auto"];
+  const [selectedTheme, setSelectedTheme] = useState("light");
+  const className = `layout ${selectedTheme}`;
 
-  const updateColor = (color) => {
-    setSelectedColor(color);
+  const updateTheme = (color) => {
+    setSelectedTheme(color);
   };
 
   return (
     <div className={className}>
       <label>
         Appearance: 
-        <select className="dropdown" name="selectColor" onChange={((e) => updateColor(e.target.value))}>
-          {listOfColors.map((color) => {
+        <select className="dropdown" name="selectTheme" onChange={((e) => updateTheme(e.target.value))}>
+          {themes.map((theme) => {
             return (
-              <option value={color} key={color}>{color}</option>
+              <option value={theme} key={theme}>{theme}</option>
             )
           })}
         </select>
