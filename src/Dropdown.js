@@ -3,8 +3,8 @@ import './Dropdown.css';
 
 const Dropdown = () => {
 
-  const listOfColors = ["red", "yellow", "blue"];
-  const [selectedColor, setSelectedColor] = useState("red");
+  const listOfColors = ["blue", "green"];
+  const [selectedColor, setSelectedColor] = useState("blue");
   const className = `layout ${selectedColor}`;
 
   const updateColor = (color) => {
