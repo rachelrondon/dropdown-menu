@@ -10,16 +10,17 @@
   font-weight: bold;
 } 
 
-.red {
-  background-color: #C73A38;
-}
-
-.green {
-  background-color: #53AC65;
+.yellow {
+  background-color: #f9c74f;
 }
 
 .blue {
-  background-color: #407FBF;
+ background-color: #4d9de0; 
+ /* background-color: #1d4e89; */
+}
+
+.red {
+  background-color: #f94144;
 }
 
 .dropdown {
