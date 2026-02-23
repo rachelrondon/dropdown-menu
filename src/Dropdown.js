@@ -7,8 +7,8 @@ const Dropdown = () => {
   const [selectedTheme, setSelectedTheme] = useState("light");
   const className = `layout ${selectedTheme}`;
 
-  const updateTheme = (color) => {
-    setSelectedTheme(color);
+  const updateTheme = (theme) => {
+    setSelectedTheme(theme);
   };
 
   return (
