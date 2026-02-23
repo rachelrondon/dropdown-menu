@@ -1,0 +1,27 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.layout label {
+  font-weight: bold;
+} 
+
+.red {
+  background-color: #C73A38;
+}
+
+.green {
+  background-color: #53AC65;
+}
+
+.blue {
+  background-color: #407FBF;
+}
+
+.dropdown {
+  margin-left: 1rem;
+}
