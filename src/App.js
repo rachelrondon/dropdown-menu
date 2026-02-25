@@ -1,10 +1,10 @@
 import './App.css';
-import Dropdown from './Dropdown';
+import Select from './Select';
 
 function App() {
   return (
     <div className="App">
-      <Dropdown />
+      <Select />
     </div>
   );
 }

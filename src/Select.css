@@ -6,22 +6,22 @@
   justify-content: center;
 }
 
+.auto {
+  background-color: #7f8a84;
+  color: #fafbf9;
+}
+
 .light {
-  background-color: #FAFBF9;  
+  background-color: #fafbf9;
   color: #1f232a;
 }
 
 .dark {
   background-color: #1f232a;
-  color: #FAFBF9;  
+  color: #fafbf9;
 }
 
-.auto {
-  background-color: #7F8A84;
-  color: #FAFBF9;  
-}
-
-.dropdown {
+.select {
   margin-left: 1rem;
   padding: 0.1rem;
 }
